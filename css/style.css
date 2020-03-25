@@ -58,3 +58,11 @@
     left: 390px;
     top: 84px;
 }
+.address{
+    position: absolute;
+    right: 628px;
+}
+.address_time li{
+    list-style: none;
+    color: white;
+}
