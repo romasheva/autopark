@@ -1,0 +1,60 @@
+*{
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    max-width: 1920px; 
+    max-height: 651px;
+    background-image: url(/css/img/auto2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.black_fone{
+    min-width: 1920px;
+    position: absolute;
+    opacity: 0.9;
+    top: 59px;
+}
+.people_info{
+    position: absolute;
+    display: flex;
+    left: 390px;
+    margin-top: 16px;
+}
+.people_info li{
+    list-style: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.people_info li:nth-child(2){
+    margin-left: 50px;
+}
+.people_info li:nth-child(1)::before{
+    content: "";
+    background-image: url(/css/img/man1.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 6px;
+    padding-right: 6px;
+}
+.people_info li:nth-child(2)::before{
+    content: "";
+    background-image: url(/css/img/mans.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 6px;
+    padding-right: 6px;
+}
+.logo{
+    position: relative;
+    left: 390px;
+    top: 84px;
+}
