@@ -65,4 +65,34 @@
 .address_time li{
     list-style: none;
     color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+}
+.adress_time_low li::before{
+    content: "";
+    background-image: url(/css/img/pin.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    position: absolute;
+    left: -24px;
+    top: 4px;
+}
+.adress_time_clock li{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+}
+.adress_time_low li{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+}
+.adress_time_clock li::before{
+    content: "";
+    background-image: url(/css/img/clock.png);
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: -24px;
+    top: 59px;
 }
