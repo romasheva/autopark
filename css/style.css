@@ -202,4 +202,15 @@
 .products_as input{
     position: absolute;
     right: -356px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+    
+}
+.products_as ::placeholder{
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
 }
