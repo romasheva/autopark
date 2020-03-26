@@ -54,13 +54,15 @@
     padding-right: 6px;
 }
 .logo{
-    position: relative;
+    position: absolute;
     left: 390px;
     top: 84px;
+    max-width: 1920px;
 }
 .address{
     position: absolute;
     right: 628px;
+    top: 82px;
 }
 .address_time li{
     list-style: none;
@@ -99,6 +101,7 @@
 .call_info{
     position: absolute;
     right: 340px;
+    top: 82px;
 }
 .number_phone{
     position: relative;
