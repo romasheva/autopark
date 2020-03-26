@@ -150,20 +150,22 @@
     right: 341px;
     top: 162px;
     background-color: #ffae00;
+    border-radius: 6px;
 }
 .call_back_b{
     width: 220px;
     height: 41px;
     position: relative;
     align-items: center;
-    border-radius: 5%;
     background-image: url(/css/img/call_back.png);
     background-repeat: no-repeat;
+    background: transparent;
     border: 0;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 500;
     cursor: pointer;
     text-decoration: none;
+    outline: none;
 
 }
 .call_back_b::before{
@@ -173,6 +175,6 @@
     width: 27px;
     height: 27px;
     position: absolute;
-    left: 10px;
+    left: 18px;
     top: 6px;
 }
