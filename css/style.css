@@ -181,7 +181,8 @@
 .products_as{
     position: absolute;
     display: flex;
-    top: 70px;
+    top: 215px;
+    left: 390px;
 }
 .products_as li {
     color: white;
@@ -189,4 +190,5 @@
     font-family: 'Fira Sans', sans-serif;
     font-weight: 200;
     font-size: 100%;
+    margin: 0 0 0 44px;
 }
