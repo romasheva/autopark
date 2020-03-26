@@ -184,11 +184,22 @@
     top: 215px;
     left: 390px;
 }
-.products_as li {
+.products_as li{
     color: white;
     list-style: none;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 200;
     font-size: 100%;
     margin: 0 0 0 44px;
+    cursor: pointer;
+}
+.products_as li:nth-child(1){
+    margin: 0 0 0 0;
+}
+.products_as li:hover{
+    color: #ffae00;
+}
+.products_as input{
+    position: absolute;
+    right: -356px;
 }
