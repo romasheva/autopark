@@ -6,7 +6,7 @@
 }
 .header{
     max-width: 1920px; 
-    max-height: 651px;
+    min-height: 651px;
     background-image: url(/css/img/auto2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,7 +62,7 @@
 .address{
     position: absolute;
     right: 628px;
-    top: 82px;
+    top: 70px;
 }
 .address_time li{
     list-style: none;
@@ -101,7 +101,7 @@
 .call_info{
     position: absolute;
     right: 340px;
-    top: 82px;
+    top: 70px;
 }
 .number_phone{
     position: relative;
@@ -148,7 +148,7 @@
     height: 41px;
     position: absolute;
     right: 341px;
-    top: 162px;
+    top: 140px;
     background-color: #ffae00;
     border-radius: 6px;
 }
@@ -177,4 +177,16 @@
     position: absolute;
     left: 18px;
     top: 6px;
+}
+.products_as{
+    position: absolute;
+    display: flex;
+    top: 70px;
+}
+.products_as li {
+    color: white;
+    list-style: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+    font-size: 100%;
 }
