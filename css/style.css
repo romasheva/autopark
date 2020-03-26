@@ -141,23 +141,27 @@
 
 }
 .call_back{
-    width: 192px;
+    width: 220px;
     height: 41px;
     position: absolute;
-    right: 363px;
-    top: 190px;
+    right: 341px;
+    top: 162px;
+    background-color: #ffae00;
 }
 .call_back_b{
-    width: 192px;
+    width: 220px;
     height: 41px;
     position: relative;
     align-items: center;
     border-radius: 5%;
     background-image: url(/css/img/call_back.png);
+    background-repeat: no-repeat;
     border: 0;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 500;
     cursor: pointer;
+    text-decoration: none;
+
 }
 .call_back_b::before{
     content: "";
