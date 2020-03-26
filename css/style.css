@@ -98,35 +98,56 @@
 }
 .call_info{
     position: absolute;
-    right: 390px;
+    right: 340px;
 }
 .number_phone{
     position: relative;
 }
-.number_phone li{
+.number_phone_t li{
     list-style: none;
     font-family: 'Fira Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     color: white;
-    font-size: 150%;
+    font-size: 180%;
 }
-
-.number_phone li:nth-child(1)::before{
+.number_phone_t li::before{
     content: "";
     background-image: url(/css/img/watsup.png);
     background-size: cover;
     width: 17px;
     height: 17px;
     position: absolute;
-    left: -40px;
-    top: 35px;
+    left: 2px;
+    top: 39px;
+}
+.number_phone_r li::before{
+    content: "";
+    background-image: url(/css/img/viber.png);
+    background-size: cover;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: -21px;
+    top: 5px;
 }
 .number_phone_r{
     position: absolute;
-    right: -20px;
+    list-style: none;
+    right: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 150%;
 
 }
 .call_info button{
     position: absolute;
     top: 97px;
+}
+.call_back{
+    max-width: 192px;
+    max-height: 41px;
+    position: absolute;
+    right: 450px;
+    top: 190px;
 }
