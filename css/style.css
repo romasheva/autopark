@@ -140,14 +140,32 @@
     font-size: 150%;
 
 }
-.call_info button{
-    position: absolute;
-    top: 97px;
-}
 .call_back{
-    max-width: 192px;
-    max-height: 41px;
+    width: 192px;
+    height: 41px;
     position: absolute;
-    right: 450px;
+    right: 363px;
     top: 190px;
+}
+.call_back_b{
+    width: 192px;
+    height: 41px;
+    position: relative;
+    align-items: center;
+    border-radius: 5%;
+    background-image: url(/css/img/call_back.png);
+    border: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.call_back_b::before{
+    content: "";
+    background-image: url(/css/img/phone_call_back.png);
+    background-size: cover;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: 10px;
+    top: 6px;
 }
