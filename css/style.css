@@ -214,3 +214,13 @@
     font-family: 'Fira Sans', sans-serif;
     font-weight: 200;
 }
+.products_as input::after{
+    content: "";
+    background-image: url(/css/img/research.png);
+    background-size: cover;
+    width: 15px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
