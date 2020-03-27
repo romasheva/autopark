@@ -201,12 +201,13 @@
 }
 .products_as input{
     position: absolute;
-    right: -356px;
+    right: -355px;
     background: transparent;
     border: 0;
     outline: none;
     border-bottom: 1px solid white;
     color: white;
+    width: 231px;
     
 }
 .products_as ::placeholder{
@@ -214,13 +215,13 @@
     font-family: 'Fira Sans', sans-serif;
     font-weight: 200;
 }
-.products_as input::after{
+.products_as li::after{
     content: "";
     background-image: url(/css/img/research.png);
     background-size: cover;
     width: 15px;
     height: 16px;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: -349px;
+    top: -5px;
 }
