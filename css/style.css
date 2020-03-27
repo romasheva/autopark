@@ -207,13 +207,12 @@
     outline: none;
     border-bottom: 1px solid white;
     color: white;
-    width: 231px;
-    
+    width: 239px;
 }
 .products_as ::placeholder{
     color: white;
     font-family: 'Fira Sans', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 }
 .products_as li::after{
     content: "";
