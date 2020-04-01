@@ -236,7 +236,7 @@
     bottom: 0;
     width: 1920px;
 }
-.slider_op h1{
+/* .slider_op h1{
     position: absolute;
     color: white;
     font-family: 'Fira Sans', sans-serif;
@@ -245,7 +245,7 @@
     font-size: 330%;
     left: 390px;
     top: 105px;
-}
+} */
 .sale h1{
     position: absolute;
     color: white;
