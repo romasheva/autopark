@@ -256,7 +256,7 @@
     left: 786px;
     top: 180px;
 }
-/* .slider_op h2{
+.slider_op h2{
     position: absolute;
     color: #ffae00;
     font-family: 'Fira Sans', sans-serif;
@@ -265,7 +265,7 @@
     left: 390px;
     top: 172px;
     font-size: 208%;
-} */
+}
 .form{
     display: flex;
     flex-direction: column;
