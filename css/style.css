@@ -304,3 +304,7 @@
 #two{
     margin: 0 10px 0 10px;
 }
+.form ::placeholder{
+    font-family: 'Fira Sans', sans-serif;
+    
+}
