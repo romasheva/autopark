@@ -292,3 +292,8 @@
     font-weight: 300;
     padding: 0 14px 18px 14px;
 }
+.form input{
+    height: 39px;
+    border-bottom: 1px solid black;
+    padding: 16px 0 10px 40px;
+}
