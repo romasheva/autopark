@@ -273,4 +273,6 @@
     right: 100px;
     height: 286px;
     width: 360px;
+    border: 3px solid #ffae00;
+    border-radius: 2%;
 }
