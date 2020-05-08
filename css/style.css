@@ -281,8 +281,12 @@
 }
 .form h3{
     font-family: 'Fira Sans', sans-serif;
-    font-weight: 500;
-    font-size: 150%;
-    color: grey;
+    font-size: 167%;
+    color: #444444;
     padding: 20px 20px 10px 20px;
+}
+.form h4{
+    font-family: 'Fira Sans', sans-serif;
+    color: #444444;
+    font-weight: 300;
 }
