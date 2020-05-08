@@ -271,4 +271,6 @@
     flex-direction: column;
     position: absolute;
     right: 100px;
+    height: 286px;
+    width: 360px;
 }
