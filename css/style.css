@@ -295,16 +295,20 @@
 .form input{
     height: 39px;
     border: none;
-    padding: 16px 0 10px 40px;
+    padding: 16px 0 10px 16px;
     outline: none;
 }
 #first{
     margin: 10px 10px 13px 10px;
+    border-bottom: 1px solid black;
 }
 #two{
     margin: 0 10px 0 10px;
+    border-bottom: 1px solid black;
 }
 .form ::placeholder{
     font-family: 'Fira Sans', sans-serif;
-    
+    font-size: 14px;
+    font-style: italic;
+    color: black;
 }
