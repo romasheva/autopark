@@ -294,6 +294,13 @@
 }
 .form input{
     height: 39px;
-    border-bottom: 1px solid black;
+    border: none;
     padding: 16px 0 10px 40px;
+    outline: none;
+}
+#first{
+    margin: 10px 10px 13px 10px;
+}
+#two{
+    margin: 0 10px 0 10px;
 }
