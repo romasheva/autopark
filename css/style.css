@@ -332,6 +332,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50% 50%;
+    margin-right: 5px;
 }
 .custom-checkbox:checked + label:before{
     border-color: #0b76ef;
@@ -341,6 +342,9 @@
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
     font-size: 13px;
+    position: absolute;
+    left: 10px;
+    bottom: 56px;
 }
 .call_me{
     width: 195px;
@@ -349,7 +353,8 @@
     border: 0;
     border-radius: 5px;
     position: absolute;
-    bottom: 0;
+    bottom: 12px;
     outline: none;
     cursor: pointer;
+    left: 80px;
 }
