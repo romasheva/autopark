@@ -357,4 +357,6 @@
     outline: none;
     cursor: pointer;
     left: 80px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
 }
