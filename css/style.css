@@ -342,3 +342,10 @@
     font-weight: 300;
     font-size: 13px;
 }
+.call_me{
+    width: 195px;
+    height: 41px;
+    background: #ffaf00;
+    border: 0;
+    border-radius: 5px;
+}
