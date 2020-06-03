@@ -45,7 +45,7 @@
 }
 .people_info li:nth-child(2)::before{
     content: "";
-    background-image: url(/css/img/mans.png);
+    background-image: url(css/img/mans.png);
     background-size: cover;
     width: 16px;
     height: 24px;
@@ -90,7 +90,7 @@
 }
 .adress_time_clock li::before{
     content: "";
-    background-image: url(/css/img/clock.png);
+    background-image: url(css/img/clock.png);
     background-size: cover;
     width: 18px;
     height: 18px;
@@ -125,7 +125,7 @@
 }
 .number_phone_r li::before{
     content: "";
-    background-image: url(/css/img/viber.png);
+    background-image: url(css/img/viber,png);
     background-size: cover;
     width: 17px;
     height: 17px;
@@ -157,7 +157,7 @@
     height: 41px;
     position: relative;
     align-items: center;
-    background-image: url(/css/img/call_back.png);
+    background-image: url(css/img/call_back.png);
     background-repeat: no-repeat;
     background: transparent;
     border: 0;
