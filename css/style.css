@@ -45,7 +45,7 @@
 }
 .people_info li:nth-child(2)::before{
     content: "";
-    background-image: url(/css/img/mans.png);
+    background-image: url(css/img/mans.png);
     background-size: cover;
     width: 16px;
     height: 24px;
@@ -90,7 +90,7 @@
 }
 .adress_time_clock li::before{
     content: "";
-    background-image: url(/css/img/clock.png);
+    background-image: url(css/img/clock.png);
     background-size: cover;
     width: 18px;
     height: 18px;
@@ -125,7 +125,7 @@
 }
 .number_phone_r li::before{
     content: "";
-    background-image: url(/css/img/viber.png);
+    background-image: url(css/img/viber,png);
     background-size: cover;
     width: 17px;
     height: 17px;
@@ -157,7 +157,7 @@
     height: 41px;
     position: relative;
     align-items: center;
-    background-image: url(/css/img/call_back.png);
+    background-image: url(css/img/call_back.png);
     background-repeat: no-repeat;
     background: transparent;
     border: 0;
@@ -332,13 +332,31 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50% 50%;
+    margin-right: 5px;
 }
 .custom-checkbox:checked + label:before{
     border-color: #0b76ef;
     background-color: #0b76ef;
 }
-/* .checkbox label{
+.checkbox label{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
     font-size: 13px;
-} */
+    position: absolute;
+    left: 10px;
+    bottom: 56px;
+}
+.call_me{
+    width: 195px;
+    height: 41px;
+    background: #ffaf00;
+    border: 0;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 12px;
+    outline: none;
+    cursor: pointer;
+    left: 80px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
